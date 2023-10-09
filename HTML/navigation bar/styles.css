@@ -32,7 +32,7 @@ li {
 a {
     text-decoration: none;
     color: #fff;
-    transition: color 0.3s ease-in-out; /* Color transition effect */
+    transition: color 0.1s ease-in-out; /* Color transition effect */
 }
 
 /* Change link color on hover */
@@ -43,7 +43,7 @@ a:hover {
 
 /* Add animation on hover */
 li:hover {
-    animation: hangover 0.5s ease-in-out;
+    animation: hangover 0.2s ease-in-out;
     animation-iteration-count: 1;
 }
 
@@ -53,15 +53,15 @@ li:hover {
         transform: translateY(0);
     }
     25% {
-        transform: translateY(-5px);
+        transform: translateY(-2px);
     }
     50% {
-        transform: translateY(5px);
+        transform: translateY(2px);
     }
     75% {
-        transform: translateY(-5px);
+        transform: translateY(-2px);
     }
     100% {
-        transform: translateY(5px);
+        transform: translateY(2px);
     }
 }
